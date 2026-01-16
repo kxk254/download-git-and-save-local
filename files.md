@@ -38,5 +38,5 @@ chmod +x ~/git_autopull.sh
 crontab -e 
 
 Add:
-30 2 * * * echo "==== $(date) ====" >> /mnt/konno/git_autopull.log; /home/konno/git_autopull.sh >> /mnt/konno/git_autopull.log 2>&1
+30 17 * * * echo "==== $(date) ====" >> /mnt/konno/git_autopull.log; /home/konno/git_autopull.sh >> /mnt/konno/git_autopull.log 2>&1
 
