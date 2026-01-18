@@ -6,6 +6,8 @@ git clone git@github.com:kxk254/clientmanage
 git clone git@github.com:kxk254/receipt
 git clone git@github.com:kxk254/invoice
 git clone git@github.com:kxk254/solitonre
+git clone git@github.com:kxk254/neovim
+git clone git@github.com:kxk254/download-git-and-save-local
 
 create auto pull script
 
@@ -20,6 +22,8 @@ repos=(
     "receipt"
     "invoice"
     "solitonre"
+    "neovim"
+    ”download-git-and-save-local"
 )
 
 for repo in "${repos[@]}"; do
