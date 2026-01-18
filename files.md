@@ -1,4 +1,5 @@
 
+```
 cd /mnt/nas/daily_backup
 git clone git@github.com:kxk254/blm-homepage
 git clone git@github.com:kxk254/clientmanage
@@ -40,3 +41,4 @@ crontab -e
 Add:
 30 17 * * * echo "==== $(date) ====" >> /mnt/konno/git_autopull.log; /home/konno/git_autopull.sh >> /mnt/konno/git_autopull.log 2>&1
 
+```
